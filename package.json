@@ -1,0 +1,49 @@
+{
+  "name": "ts-typeorm-graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --setupFiles dotenv/config",
+    "build": "npx tsc",
+    "start": "node index.js",
+    "lint": "tslint --project . -t verbose",
+    "dev_ts_start": "tsc -b --verbose && node -r ts-node/register -r dotenv/config index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/lodash": "^4.14.149",
+    "@types/mysql": "^2.15.15",
+    "@types/node": "^12.12.14",
+    "apollo-server-express": "^2.15.1",
+    "class-validator": "^0.12.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.2.0",
+    "lodash": "^4.17.19",
+    "mysql": "^2.18.1",
+    "prettier": "^1.18.2",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "type-graphql": "^1.0.0-rc.3",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.25",
+    "typeorm-typedi-extensions": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@types/node-fetch": "^2.5.7",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
+    "graphql-tag": "^2.10.4",
+    "jest": "^26.1.0",
+    "node-fetch": "^2.6.0",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
+  }
+}
