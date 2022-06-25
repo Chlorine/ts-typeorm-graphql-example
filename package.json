@@ -42,7 +42,7 @@
     "apollo-link-http": "^1.5.17",
     "graphql-tag": "^2.10.4",
     "jest": "^26.1.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "ts-jest": "^26.1.2",
     "typescript": "^3.9.6"
   }
